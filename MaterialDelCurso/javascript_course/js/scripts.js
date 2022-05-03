@@ -1,2 +1,2 @@
-
-        alert("pruebita de javascript");
+alert("pruebita de javascript");
+console.log("prueba alerta consola");
