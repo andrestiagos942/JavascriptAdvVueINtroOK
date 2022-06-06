@@ -158,3 +158,36 @@ true
     console.log("Opciones de financiamiento no son permitidas para menores a 1k verde bb");    
  }
 v10*/
+
+
+/*v11
+// variable vacia
+var noValue;
+// llamado a variable vacia
+noValue
+
+
+var FirstName = "Peter"; 
+// llamado al caracter en posicion 4, inicio "0= primer posicion",
+FirstName[4];
+// = 'r'
+
+
+// variable temperatura con valor
+ var temperature = 35;
+
+// llamado a temperatura y reemplazo de valor por nulo y dsp undefined
+temperature
+35
+var temperature = null;
+typeof temperature
+'object'
+
+// 
+var temperature = undefined;
+typeof temperature
+'undefined'
+
+
+v11*/
+
