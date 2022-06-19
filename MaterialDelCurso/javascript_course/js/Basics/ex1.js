@@ -29,3 +29,8 @@ phone3 = phone3.toString();
 console.log(phone1.length == 9);
 console.log(phone2.length == 9);
 console.log(phone3.length == 9);
+
+
+// EJERCICIO 5
+
+console.log( Math.pow(32,6));
