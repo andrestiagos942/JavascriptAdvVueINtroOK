@@ -62,7 +62,7 @@ typeof firstName
 
 v7*/
 
-/*v8 
+/*v8 */
 // Numbers
  var birthYear = 1982; 
     var price = 16.99;  // decimal places must be separated by a dot.
@@ -107,16 +107,16 @@ v7*/
 
     var randomNumber = Math.random() // The result is a random number between 0 and 1
 //Methods of the number object
-
-    var myNumber = 3.78633;
+/*
+    var myNumber = 3.78633;*/
     
     // toFixed() rounds it to a fixed number of decimal places
-
+/*
     console.log( myNumber.toFixed(2) ); // will show 3.79
     console.log( myNumber.toFixed(4) ); // will show 3.7863
+*/
 
-
-v8*/
+/*v8*/
 
 /*v9 
 
@@ -191,3 +191,51 @@ typeof temperature
 
 v11*/
 
+//--------------
+
+/*v15*/
+ /* 
+ //   devuelve en consola 
+function sum_numbers() {
+        var num1 = 5;
+        var num2 = 2;
+        var sum  = num1 + num2;
+        console.log(sum);   
+    }
+     sum_numbers();
+
+    //   devuelve en consola 
+
+   function sum_arg(num1,num2) {
+        var sum  = num1 + num2;
+        return(sum);   
+    }
+
+    var average = sum_arg(2,3) / 2 ;
+    console.log(average);
+
+    //   devuelve en consola 
+    function sum_arg(num1,num2) {
+        var sum  = num1 + num2;
+        return(sum);   
+    }
+      var average = sum_arg(2,3) / 2 ;
+      console.log(average); 
+
+    // ultimo ejercicio clase 
+
+    function sum_arg(num1,num2) {
+        var sum  = num1 + num2;
+        return(sum);   
+    }
+    document.getElementById("sum_result").innerHTML = sum_arg(-27,55);
+            */
+/*v15*/
+
+
+/*v16*/
+    var students = ["john", "Mary", "Paul"];
+    var primeNumbers = [ 2, 3, 5, 7, 11, 13 ];
+
+
+/*v16*/
