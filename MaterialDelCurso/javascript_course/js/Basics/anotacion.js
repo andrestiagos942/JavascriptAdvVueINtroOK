@@ -234,8 +234,72 @@ function sum_numbers() {
 
 
 /*v16*/
+/*
     var students = ["john", "Mary", "Paul"];
     var primeNumbers = [ 2, 3, 5, 7, 11, 13 ];
+    var courses = [ "HTML", "Python", "PHP" ];
+
+    // editar elementos array    
+    // agrega al primero
+    courses.unshift("Bootstrap");
+    // agrega al ultimo
+    courses.push("otrolenguaje");
+
+    // Borra el primero
+    courses.shift();
+    // Borra el ultimo
+    courses.pop();   
+
+    // editar array por posicion [N°]
+    courses[2] = "maque";
 
 
+    // extraer parte of un array
+    var students = [ "Peter" , "Joana", "Andrew", "Julio", "Kate", "Marie" ];
+    console.log( students.slice(0,4) ); // posicion 1 a 5
+    console.log( students.slice(-3,) ); // ultimas 3
+
+
+    var IMPUESTOS = "rt123456789"
+   console.log( IMPUESTOS.slice(0,10));
+*/
 /*v16*/
+
+/*v17*/
+/*
+var employee = {
+    'name': 'James Taylor',
+    'yearOfBirth': 1948,
+    'ID': 'SBJ0001',
+    'role': 'IT Analyst'
+}
+
+
+employee.role = 'IT Manager';
+employee.pasport = '12354678';
+*/
+var courses = [
+    {
+        'title': 'Learn code in Python 3',
+        'reviews': 6802,
+        'students': 130129,
+        'categories': ['programming', 'technology']
+    },
+
+    {
+        'title': 'Learn PHP -  Beginner to Advanced',
+        'reviews': 1204,
+        'students': 30521,
+        'categories': ['web development', 'programming']
+    },
+
+    {
+        'title': 'Learn Microsoft Excel 2020',
+        'reviews': 4209,
+        'students': 18560,
+        'categories': ['productivity', 'business']
+    }
+    
+];
+
+/*v17*/
